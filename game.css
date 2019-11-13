@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    margin: 0px;
+    background: black;
+}
+#container {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Georgia';
+    font-size:60px;
+    padding: 20px;
+}
+
+.game_buttons{
+    margin-top: 70px;
+}
+
+button {
+    padding: 10px;
+    text-align: center;
+    background: rgb(241, 11, 3);
+    border: none;
+    border-radius: 15px;
+    font-size:80px;
+   /* margin: 2px; */
+    font-weight: bold;
+    color: white;
+    font-family: Georgia;
+    margin-right: 50px;
+}
+
+input {
+    height: 90px;
+    width: 550px;
+    border-radius: 15px;
+    font-family: 'Georgia';
+    text-align: center;
+    /* margin: 2px; */
+    font-size: 60px;
+    border: none;
+}
+
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.remark{
+    margin: 5px;
+}
+
+.rand_no {
+    margin-bottom: 20px;
+}
+
+.refresh {
+    margin: 5px;
+}
+
+#success{
+    color: green;
+}
+
+#lost {
+    color: red
+}
